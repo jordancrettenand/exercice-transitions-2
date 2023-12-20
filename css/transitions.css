@@ -55,3 +55,17 @@
   background-color: blueviolet;
   opacity: 60%;
 }
+
+/* mon code ex 4 */
+#ex04 .recipe-image {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex04 .recipe:hover .recipe-header {
+  transform: translate(20px, 0px);
+}
+
+#ex04 .recipe-header {
+  transition: transform 0.2s;
+}
