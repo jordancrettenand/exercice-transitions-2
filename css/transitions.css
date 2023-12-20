@@ -32,3 +32,14 @@
   transform: scale(1.1);
   transition: transform 0.2s;
 }
+
+/* mon code ex 2 */
+#ex02 .recipe-image {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition: transform 0.2s;
+}
+
+#ex02 .recipe:hover .recipe-image {
+  transform: rotate(5deg);
+}
