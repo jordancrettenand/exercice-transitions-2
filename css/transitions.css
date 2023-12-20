@@ -1,27 +1,4 @@
 /* mon code ex 12 */
-#ex12 .box {
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  transition: transform 0.2s;
-}
-
-#ex12 .box:hover {
-  background-color: blue;
-}
-#ex12 .box:nth-child(1):hover {
-  background-color: blue;
-  transform: scale(1.2);
-}
-#ex12 .box:nth-child(2):hover {
-  background-color: blue;
-  transform: scale(1.2);
-}
-#ex12 .box:nth-child(3):hover {
-  background-color: blue;
-  transform: scale(1.2);
-}
-
-/* mon code ex 12 */
 #ex01 .l-col {
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -33,11 +10,14 @@
   transition: transform 0.2s;
 }
 
+#ex01 .recipe {
+  transition: transform 0.2s;
+}
+
 /* mon code ex 2 */
 #ex02 .recipe-image {
   transition-property: background-color;
   transition-duration: 0.5s;
-  transition: transform 0.2s;
 }
 
 #ex02 .recipe:hover .recipe-image {
@@ -48,7 +28,6 @@
 #ex03 .recipe-image {
   transition-property: background-color;
   transition-duration: 0.5s;
-  transition: transform 0.2s;
 }
 
 #ex03 .recipe:hover .recipe-image {
@@ -68,4 +47,19 @@
 
 #ex04 .recipe-header {
   transition: transform 0.2s;
+}
+
+/* mon code ex 5 */
+#ex04 .recipe-image {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex05 .recipe:hover .recipe-header {
+  transform: translate(20px, 0px);
+}
+
+#ex05 .recipe-header {
+  transition: transform 0.2s;
+  transition-delay: 0.5s;
 }
